@@ -1,0 +1,137 @@
+@import "./base.scss";
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap");
+
+#app {
+  margin: 0 auto;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    padding: 0 2rem;
+  }
+}
+
+#page {
+  margin: 0 auto;
+  width: max-content;
+  height: max-content;
+  padding: 40px;
+  background-color: var(--color-background-section);
+  box-shadow: var(--base-shadow);
+  border-radius: 23px;
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  h1 {
+    font-weight: 900;
+    font-size: 28px;
+  }
+
+  #copyright {
+    font-weight: 500;
+    text-align: right;
+    margin-top: 5%;
+    color: var(--color-text-dim);
+    position: relative;
+  }
+}
+
+#links {
+  margin-top: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+  border-radius: 20px;
+}
+
+.card {
+  background-color: var(--color-background-soft);
+  padding: 20px;
+  text-align: center;
+  height: max-content;
+  transition: background-color 300ms;
+
+  &:hover {
+    background-color: var(--color-background-mute);
+  }
+
+  &:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    .head {
+      border-top-left-radius: 15px;
+    }
+  }
+
+  &:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    .head {
+      border-top-right-radius: 15px;
+    }
+  }
+
+  h3 {
+    font-weight: 900;
+    font-size: 25px;
+    color: var(--color-text);
+  }
+
+  .date {
+    color: var(--color-text);
+    font-family: "Source Code Pro", monospace;
+    font-size: 13px;
+  }
+
+  .subject {
+    margin-top: 40%;
+    font-weight: 800;
+  }
+
+  > .head {
+    text-align: center;
+    height: 70px;
+    text-align: center;
+    margin: -20px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.password-input {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  border: 1px #fff;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition: color 300ms;
+}
