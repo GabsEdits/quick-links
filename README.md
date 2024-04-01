@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Quick Links</h1>
   <p>An easy way to access your quick links from anywhere in the world</p>
-  <small>Powered by [VitePress](https://vitepress.dev/)</small>
+  <small>Powered by <a href="https://vitepress.dev">VitePress</a></small>
 </div>
 
 ## Intention
@@ -14,7 +14,7 @@ To edit the cards and links, you can modify the `index.md` file. Inside the file
 
 ### Links
 
-To set up the links, you need to rename the `.env.example` file to `.env`. Inside the `.env` file, you will find the `VITE_PASSWORD_KEY` variable, which is the password key. Below that, you will see `VITE_LINK0` and other similar variables. These variables correspond to the secret links for your cards, in the same order as in the `index.md` file.
+To set up the links, you need to rename the `.env.example` file to `.env`. Inside the `.env` file, you will find the `VITE_PASSWORD_KEY` variable, which is the password key. Below that, you will see `VITE_LINKx` (`x` stands for a number) and other similar variables. These variables correspond to the secret links for your cards, in the same order as in the `index.md` file.
 
 ## Development
 
