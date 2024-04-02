@@ -22,15 +22,11 @@ This project uses VitePress, which makes it easy to host and develop.
 
 ### Build and Run
 
-To run the Quick Links website locally, make sure you have [PNPM](https://pnpm.io/) installed.
+To run the Quick Links website locally, you will need to have [PNPM](https://pnpm.io/) installed on your machine.
 
 ## Development
 
 The Quick Links project is built using VitePress, a powerful tool for hosting and developing websites. With VitePress, you can easily build and run the project locally.
-
-### Build and Run
-
-To run the Quick Links website locally, you will need to have [PNPM](https://pnpm.io/) installed on your machine.
 
 #### Install Dependencies
 
