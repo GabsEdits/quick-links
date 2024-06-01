@@ -18,17 +18,12 @@ To set up the links, you need to rename the `.env.example` file to `.env`. Insid
 
 ## Development
 
-This project uses VitePress, which makes it easy to host and develop.
-
-### Build and Run
-
-To run the Quick Links website locally, you will need to have [PNPM](https://pnpm.io/) installed on your machine.
-
-## Development
-
 The Quick Links project is built using VitePress, a powerful tool for hosting and developing websites. With VitePress, you can easily build and run the project locally.
 
 #### Install Dependencies
+
+> [!NOTE]
+> Make sure to have [PNPM](https://pnpm.io) installed.
 
 To get started, navigate to the project directory in your terminal and run the following command to install the project dependencies:
 
