@@ -13,12 +13,17 @@ I created this project when I needed a quick and simple page to store my project
 To edit the cards and links, you can modify the `index.md` file. Inside the file's frontmatter, you will find a JSON array that represents the cards. Each card has properties such as subject, details, date, and color. You can duplicate or modify any of these cards to suit your needs.
 
 ### Links
+To set up the links, follow these steps:
 
-To set up the links, you need to rename the `.env.example` file to `.env`. Inside the `.env` file, you will find the `VITE_PASSWORD_KEY` variable, which is the password key. Below that, you will see `VITE_LINKx` (`x` stands for a number) and other similar variables. These variables correspond to the secret links for your cards, in the same order as in the `index.md` file.
+1. Rename the `.env.example` file to `.env`.
+2. Inside the `.env` file, locate the `VITE_PASSWORD_KEY` variable. This variable represents the password key. Change the value to a secure password key of your choice.
+3. Below the `VITE_PASSWORD_KEY` variable, you will find multuple `VITE_LINKx` variables, where `x` is a number. These variables correspond to the secret links for your cards, in the same order as in the `index.md` file.
+
+Make sure to update the values of the `VITE_LINKx` variables with the desired secret links for your cards.
 
 ## Development
 
-The Quick Links project is built using VitePress, a powerful tool for hosting and developing websites. With VitePress, you can easily build and run the project locally.
+The Quick Links project is built using VitePress, a powerful Static Site Generator. With VitePress, you can easily build and run the project locally.
 
 #### Install Dependencies
 
