@@ -41,12 +41,12 @@ const togglePasswordInput = () => {
   showPasswordInput.value = !showPasswordInput.value;
 };
 
-const { frontmatter, theme } = useData();
+const { frontmatter, theme, site } = useData();
 </script>
 
 <template>
   <section id="page">
-    <h1>School Links</h1>
+    <h1>{{ site.title }}</h1>
     <section id="links">
       <div id="cards">
         <template v-for="(card, index) in frontmatter.cards" :key="index">
