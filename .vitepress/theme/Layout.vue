@@ -17,7 +17,7 @@ const getLinkUrl = (index: number) => {
 const checkPassword = () => {
   const passwordInput = document.querySelector("input[type='password']") as HTMLInputElement;
 
-  if (password.value === import.meta.env.VITE_PASSWORD_KEY) {
+  if (password.value === (import.meta as any).env.VITE_PASSWORD_KEY) {
     unlocked.value = true;
     console.log("Password is correct. Unlocked:", unlocked.value);
     if (passwordInput) {
@@ -201,5 +201,6 @@ input[type="password"] {
   background-color: var(--color-background);
   padding: 0.3125rem;
   color: var(--color-text);
+  font-family: "Inter", sans-serif;
 }
 </style>
