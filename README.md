@@ -22,6 +22,22 @@ To set up the links, follow these steps:
 
 Make sure to update the values of the `VITE_LINKx` variables with the desired secret links for your cards.
 
+### Other Options
+
+You can also customize the project's title, description, and copyright by modifing the `config.mts` file isside the `.vitepress` directory:
+
+#### Copyright
+  
+```javascript
+themeConfig: {
+  copyright: true,
+  author: {
+    name: "Your Name",
+    link: "https://example.org/",
+  },
+  }
+```
+
 ## Development
 
 The Quick Links project is built using VitePress, a powerful Static Site Generator. With VitePress, you can easily build and run the project locally.

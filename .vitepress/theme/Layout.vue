@@ -99,9 +99,9 @@ const { frontmatter, theme, site } = useData();
         </template>
       </div>
     </section>
-    <p id="copyright">
+    <p id="copyright" v-if="theme?.settings.copyright !== false || theme.settings.author">
       &copy; {{ new Date().getFullYear() }}
-      <a :href="theme.author.link">{{ theme.author.name }}</a
+      <a v-if="theme.settings.author" :href="theme.settings.author.link">{{ theme.settings.author.name }}</a
       >. All rights reserved.
     </p>
   </section>
@@ -166,6 +166,8 @@ a,
       display: grid;
       transition: background-color 300ms;
       background-color: var(--color-background-soft);
+      width: max-content;
+      min-width: 12rem;
       height: max-content;
       text-align: center;
 

@@ -15,9 +15,12 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    copyright: true,
+    
     author: {
-     name: "Your Name",
-     link: "https://yourwebsite.com", // if you want to link to your website/profile
+      name: "Your Name",
+      link: "https://example.com",
     },
+    }
   },
 })
