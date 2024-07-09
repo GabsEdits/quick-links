@@ -16,11 +16,10 @@ export default defineConfig({
 
   themeConfig: {
     copyright: true,
-    
+
     author: {
       name: "Your Name",
       link: "https://example.com",
     },
-    }
   },
-})
+});
