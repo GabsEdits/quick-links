@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Quick Links",
   description: "A page to store your links",
   lang: "en-US",
-  base: "/sl/",
+  base: "/quick-links/",
 
   head: [
     ["link", { rel: "icon", href: "icon.svg" }],
