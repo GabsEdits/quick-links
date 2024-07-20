@@ -120,8 +120,7 @@ const { frontmatter, theme, site } = useData();
             <a @click="togglePasswordPopup">×</a>
             <h2>Password</h2>
             <p>
-              To verify that you are authorized to access these links, please
-              enter the password.
+              Please enter the password to verify your authorization to access these links.
             </p>
             <input
               v-model="password"
