@@ -22,12 +22,40 @@ To set up the links, follow these steps:
 
 Make sure to update the values of the `VITE_LINKx` variables with the desired secret links for your cards.
 
+Once that is done, head over to the `index.md` file and update each card with the corresponding details and make sure it's in the same order as the `VITE_LINKx` variables in the `.env` file.
+
+```yml
+---
+cards:
+  - subject: Math
+    details: Some Big Problem
+    date: 00/00/3000
+    color: "rgba(255, 0, 0, 0.484)"
+  - subject: English
+    details: Some Grammar Article
+    date: 01/10/0101
+    color: "rgba(255, 102, 0, 0.484)"
+  - subject: English
+    details: Verbs and Nouns
+    date: 10/00/1010
+    color: "rgba(255, 247, 0, 0.484)"
+  - subject: Tech
+    details: The Fediverse and You
+    date: 22/38/0231
+    color: "rgba(0, 89, 255, 0.269)"
+---
+```
+
+The `color` property is a CSS color value that represents the card's background color. You can customize this value to any color you like, using `rgba`, `hex`, `hsl`, or any other CSS color format.
+
+The `subject`, `details`, and `date` properties are self-explanatory and can be customized to your liking. The `date` and `details` properties is optional and can be removed if not needed.
+
 ### Other Options
 
 You can also customize the project's title, description, and copyright by modifing the `config.mts` file isside the `.vitepress` directory:
 
 #### Copyright
-  
+
 ```javascript
 themeConfig: {
   copyright: true,
