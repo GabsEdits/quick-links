@@ -312,13 +312,12 @@ a,
         backdrop-filter: blur(0.525rem);
         transition: backdrop-filter 300ms;
         background-color: rgba(140, 149, 159, 0.2);
+        width: 100%;
+        height: 100%;
 
         @media (prefers-color-scheme: dark) {
             background-color: rgba(0, 0, 0, 0.496);
         }
-
-        width: 100%;
-        height: 100%;
     }
 
     #content {
