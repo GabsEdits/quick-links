@@ -186,6 +186,7 @@ a,
             transition: background-color 300ms;
             background-color: var(--color-background-soft);
             min-width: 12rem;
+            max-width: 12rem;
             height: max-content;
             text-align: center;
 
@@ -225,6 +226,7 @@ a,
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                max-width: 100%;
                 padding: 1.25rem;
 
                 h3 {
