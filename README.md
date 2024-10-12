@@ -73,12 +73,12 @@ The Quick Links project is built using VitePress, a powerful Static Site Generat
 #### Install Dependencies
 
 > [!NOTE]
-> Make sure to have [PNPM](https://pnpm.io) and [Node.js](https://nodejs.org) installed on your machine.
+> Make sure to have [Deno](https://deno.com) installed on your machine.
 
 To get started, navigate to the project directory in your terminal and run the following command to install the project dependencies:
 
 ```bash
-pnpm install
+deno install
 ```
 
 #### Run Development Server
@@ -86,7 +86,7 @@ pnpm install
 To run the development server locally and see live changes, use the following command:
 
 ```bash
-pnpm dev
+deno task dev
 ```
 
 #### Run Production Build
@@ -94,7 +94,7 @@ pnpm dev
 To build your project for production, use the following command:
 
 ```bash
-pnpm build
+deno task build
 ```
 
 This command will generate optimized and minified files that are ready to be deployed to a production environment.
