@@ -185,7 +185,7 @@ a,
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            gap: 1rem;
+            gap: 2rem;
             padding-bottom: 1.25rem;
             transition: background-color 300ms;
             background-color: var(--color-background-soft);
