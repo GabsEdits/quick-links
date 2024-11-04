@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "sass": "^1.77.8",
-    "vitepress": "^1.4.1"
+    "vitepress": "^1.4.5"
   },
   "scripts": {
     "dev": "vitepress dev",
