@@ -12,20 +12,24 @@ cards:
     details: Verbs and Nouns
     date: 10/00/1010
     color: "rgba(255, 247, 0, 0.484)"
+  - subject: Business
+    details: What is a Business?
+    date: 22/38/1234
+    color: "rgba(0, 255, 0, 0.484)"
+  - subject: Geography
+    details: The World and You
+    date: 22/38/0231
+    color: "rgba(0, 255, 255, 0.484)"
+  - subject: Art
+    details: The Art of Art
+    date: 22/38/0231
+    color: "rgba(211, 0, 255, 0.484)"
   - subject: Tech
     details: The Fediverse and You
     date: 22/38/0231
     color: "rgba(0, 89, 255, 0.269)"
-  - subject: Tech
-    details: The Fediverse and You
+  - subject: French
+    details: The French Language
     date: 22/38/0231
-    color: "rgba(0, 89, 255, 0.269)"
-  - subject: Tech
-    details: The Fediverse and You
-    date: 22/38/0231
-    color: "rgba(0, 89, 255, 0.269)"
-  - subject: Tech
-    details: The Fediverse and You
-    date: 22/38/0231
-    color: "rgba(0, 89, 255, 0.269)"
+    color: "rgba(100, 0, 255, 0.484)"
 ---
