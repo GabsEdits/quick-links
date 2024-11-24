@@ -4,6 +4,11 @@
   <small>Powered by <a href="https://vitepress.dev">VitePress</a></small>
 </div>
 
+<br>
+
+![image](https://github.com/user-attachments/assets/3523bba8-b9d3-48b5-8ce2-498cf0f25a51)
+
+
 ## Intention
 
 I created this project to have a convenient and straightforward page for organizing my school projects and files.
