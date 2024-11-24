@@ -16,4 +16,16 @@ cards:
     details: The Fediverse and You
     date: 22/38/0231
     color: "rgba(0, 89, 255, 0.269)"
+  - subject: Tech
+    details: The Fediverse and You
+    date: 22/38/0231
+    color: "rgba(0, 89, 255, 0.269)"
+  - subject: Tech
+    details: The Fediverse and You
+    date: 22/38/0231
+    color: "rgba(0, 89, 255, 0.269)"
+  - subject: Tech
+    details: The Fediverse and You
+    date: 22/38/0231
+    color: "rgba(0, 89, 255, 0.269)"
 ---

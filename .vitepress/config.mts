@@ -1,4 +1,4 @@
-import { defineConfig } from 'npm:vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -10,7 +10,7 @@ export default defineConfig({
   head: [
     ["link", { rel: "icon", href: "icon.svg" }],
     ["meta", { name: "author", content: "Your Name" }],
-    ["link", { rel: "preconnect", href: "https://rsms.me/"}],
+    ["link", { rel: "preconnect", href: "https://rsms.me/" }],
     ["link", { rel: "stylesheet", href: "https://rsms.me/inter/inter.css" }],
   ],
 
@@ -20,6 +20,15 @@ export default defineConfig({
     author: {
       name: "Your Name",
       link: "https://example.com",
+    },
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          silenceDeprecations: ["legacy-js-api"],
+        },
+      },
     },
   },
 });

@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Quick Links</h1>
-  <p>An easy way to access your quick links from anywhere in the world</p>
+  <p>An easy way to access your quick links from anywhere in the world, securely.</p>
   <small>Powered by <a href="https://vitepress.dev">VitePress</a></small>
 </div>
 
@@ -48,7 +48,9 @@ cards:
 
 The `color` property is a CSS color value that represents the card's background color. You can customize this value to any color you like, using `rgba`, `hex`, `hsl`, or any other CSS color format.
 
-The `subject`, `details`, and `date` properties are self-explanatory and can be customized to your liking. The `date` and `details` properties is optional and can be removed if not needed.
+The `subject`, `details`, and `date` properties are self-explanatory and can be customized to your liking. The `date` and `details` properties are optional and can be removed if not needed.
+
+There is no limit to the number of cards you can add to the `index.md` file. You can add as many cards as you like, and they will be displayed on the page.
 
 ### Other Options
 
@@ -73,12 +75,12 @@ The Quick Links project is built using VitePress, a powerful Static Site Generat
 #### Install Dependencies
 
 > [!NOTE]
-> Make sure to have [Deno](https://deno.com) installed on your machine.
+> Make sure to have [Node.js](https://nodejs.org) and [PNPM](https://pnpm.io) installed on your machine.
 
 To get started, navigate to the project directory in your terminal and run the following command to install the project dependencies:
 
 ```bash
-deno install
+pnpm install
 ```
 
 #### Run Development Server
@@ -86,7 +88,7 @@ deno install
 To run the development server locally and see live changes, use the following command:
 
 ```bash
-deno task dev
+pnpm dev
 ```
 
 #### Run Production Build
@@ -94,7 +96,7 @@ deno task dev
 To build your project for production, use the following command:
 
 ```bash
-deno task build
+pnpm build
 ```
 
 This command will generate optimized and minified files that are ready to be deployed to a production environment.

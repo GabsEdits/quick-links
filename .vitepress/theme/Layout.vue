@@ -177,7 +177,9 @@ a,
     }
 
     #cards {
-        grid-gap: 0.125rem;
+        gap: 0.125rem;
+        border-radius: 1.3rem;
+        overflow: hidden;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
 
@@ -197,24 +199,6 @@ a,
 
             &:hover {
                 background-color: var(--color-background-mute);
-            }
-
-            &:first-child {
-                border-top-left-radius: 0.9375rem;
-                border-bottom-left-radius: 0.9375rem;
-
-                .head {
-                    border-top-left-radius: 0.9375rem;
-                }
-            }
-
-            &:last-child {
-                border-top-right-radius: 0.9375rem;
-                border-bottom-right-radius: 0.9375rem;
-
-                .head {
-                    border-top-right-radius: 0.9375rem;
-                }
             }
 
             .subject {
@@ -369,7 +353,7 @@ a,
                 font-family: "Inter", sans-serif;
 
                 @media (prefers-color-scheme: dark) {
-                    background-color: var(--color-background-soft);
+                    background-color: var (--color-background-soft);
                 }
             }
         }
