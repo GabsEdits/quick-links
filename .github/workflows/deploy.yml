@@ -23,16 +23,16 @@ jobs:
         uses: actions/checkout@v4
       - uses: denoland/setup-deno@v2
         with:
-         version: v2.x
+          version: v2.x
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Load environment variables
         run: |
-            echo "VITE_PASSWORD_KEY=${{ secrets.VITE_PASSWORD_KEY }}" >> $GITHUB_ENV
-            echo "VITE_LINK1=${{ secrets.VITE_LINK1 }}" >> $GITHUB_ENV
-            echo "VITE_LINK2=${{ secrets.VITE_LINK2 }}" >> $GITHUB_ENV
-            echo "VITE_LINK3=${{ secrets.VITE_LINK3 }}" >> $GITHUB_ENV
-            echo "VITE_LINK4=${{ secrets.VITE_LINK4 }}" >> $GITHUB_ENV
+          echo "VITE_PASSWORD_KEY=${{ secrets.VITE_PASSWORD_KEY }}" >> $GITHUB_ENV
+          echo "VITE_LINK1=${{ secrets.VITE_LINK1 }}" >> $GITHUB_ENV
+          echo "VITE_LINK2=${{ secrets.VITE_LINK2 }}" >> $GITHUB_ENV
+          echo "VITE_LINK3=${{ secrets.VITE_LINK3 }}" >> $GITHUB_ENV
+          echo "VITE_LINK4=${{ secrets.VITE_LINK4 }}" >> $GITHUB_ENV
       - name: Install dependencies
         run: deno install
       - name: Build with VitePress
