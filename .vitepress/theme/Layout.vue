@@ -46,11 +46,13 @@ const checkPassword = () => {
         console.log("Incorrect password. Unlocked:", unlocked.value);
         if (passwordInput) {
             passwordInput.style.color = "rgba(255, 71, 71, 0.838)";
+            passwordInput.style.animation = "shakeAnimation 0.5s";
         }
     }
     setTimeout(() => {
         if (passwordInput) {
             passwordInput.style.color = "";
+            passwordInput.style.animation = "";
             lock.style.filter = "";
         }
     }, 2000);
@@ -384,5 +386,23 @@ a,
 .v-leave-to {
     opacity: 0;
     backdrop-filter: 0;
+}
+
+@keyframes shakeAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-0.5rem);
+    }
+    50% {
+        transform: translateX(0.5rem);
+    }
+    75% {
+        transform: translateX(-0.5rem);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 </style>
